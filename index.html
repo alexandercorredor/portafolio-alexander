@@ -2,92 +2,150 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portafolio ejemplo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Mi Portafolio</h1>
-        <h2>Tu Nombre</h2>
-        <p>Desarrollador Web</p>
-    </header>
+  <header>
+    <h1>Mi Portafolio</h1>
+    <h2>Alexander Corredor</h2>
+    <p class="descripcion">Portafolio Proyectos HTML | Curso Backend Básico</p>
+  </header>
 
-    <section id="proyectos">
-        <article>
-            <h3>Proyecto 1</h3>
-            <p>Descripción del proyecto 1.</p>
-            <ul>
-                <li>Tecnología 1</li>
-                <li>Tecnología 2</li>
-                <li>Tecnología 3</li>
-            </ul>
-            <img src="proyecto1.jpg" alt="Proyecto 1">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO1" frameborder="0"
-                allowfullscreen></iframe>
-        </article>
+  <!-- Proyectos -->
+  <section>
+    <div>
+      <h2>Práctica Inicio de sesión</h2>
+      <p>En esta práctica se realizó un formulario de inicio de sesión (login)</p>
+      <br>
+      <img src="../img/inicio-sesion.PNG" alt="inicio de sesion" width="20%">
+      <br><br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/XPrs9nqiYOc?si=4EUpc_1jaPLAROQs"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <hr>
+    <div>
+      <h2>Práctica Formulario de Registro</h2>
+      <p>Formulario básico de registro de usuario</p>
+      <br>
+      <img src="../img/formulario.PNG" alt="registro" width="20%">
+      <br><br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OvhVLFQmgOY?si=uHw2poI3xpoDwtNr"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <hr>
+    <div>
+      <h2>Práctica Tablas de Películas</h2>
+      <p>Se realizó tabla de películas con respectivos enlaces</p>
+      <br>
+      <img src="../img/peliculas.PNG" alt="peliculas" width="20%">
+      <br><br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/to3q6bwB8CY?si=cB2AS03fPuUjYBip"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+  </section>
 
-        <article>
-            <h3>Proyecto 2</h3>
-            <p>Descripción del proyecto 2.</p>
-            <ul>
-                <li>Tecnología 1</li>
-                <li>Tecnología 2</li>
-                <li>Tecnología 3</li>
-            </ul>
-            <img src="proyecto2.jpg" alt="Proyecto 2">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO2" frameborder="0"
-                allowfullscreen></iframe>
-        </article>
+  <!-- Habilidades -->
+  <section>
+    <h2>Habilidades técnicas</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>C#</li>
+    </ul>
+  </section>
 
-        <article>
-            <h3>Proyecto 3</h3>
-            <p>Descripción del proyecto 3.</p>
-            <ul>
-                <li>Tecnología 1</li>
-                <li>Tecnología 2</li>
-                <li>Tecnología 3</li>
-            </ul>
-            <img src="proyecto3.jpg" alt="Proyecto 3">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO3" frameborder="0"
-                allowfullscreen></iframe>
-        </article>
-    </section>
+  <!-- Experiencia -->
+  <section>
+    <h2>Experiencia laboral</h2>
+    <br>
+    <table>
+      <thead>
+        <tr>
+          <th>Experiencia</th>
+          <th>Fecha</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Soporte Técnico de Impresión</td>
+          <td>2021 - Actual</td>
+          <td>Soporte Nivel 1 y 2 de Impresoras HP Multifuncionales</td>
+        </tr>
+        <tr>
+          <td>Instalador de Cableado Estructurado</td>
+          <td>2018 - 2021</td>
+          <td>Instalación de energía eléctrica regulada - UPS </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-    </section>
+  <!-- Enlaces -->
+  <section>
+    <h2>Enlaces a proyectos</h2>
+    <ul>
+      <li><a href="practica-inicio-sesion.html" target="_blank">Formulario Inicio de sesión</a></li>
+      <li><a href="practica-registro.html" target="_blank">Formulario de Registro</a></li>
+      <li><a href="practica-enlaces.html" target="_blank">Tabla de películas</a></li>
+    </ul>
+  </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+  <!-- Formulario -->
+  <section>
+    <h2 class="text-center">Contacto</h2>
+    <div class="formulario-container">
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </section>
 
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
 
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <h2>Redes sociales</h2>
+    <div class="footer-links">
+      <div class="social-link">
+        <a href="#"><i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span></a>
+      </div>
+      <div class="social-link">
+        <a href="#"><i class="fab fa-github"></i>
+          <span>GitHub</span></a>
+      </div>
+      <div class="social-link">
+        <a href="#"><i class="fab fa-facebook"></i>
+          <span>Facebook</span></a>
+      </div>
+      <div class="social-link">
+        <a href="#"><i class="fab fa-instagram"></i>
+          <span>Instagram</span></a>
+      </div>
+    </div>
+    <div>
+      <span>Alexander Corredor | 2023</span>
+    </div>
+  </footer>
 
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
-    <footer>
-        <h2>Redes Sociales</h2>
-        <ul>
-            <li><a href="https://www.linkedin.com/tu_perfil" target="_blank">LinkedIn</a></li>
-            <li><a href="https://www.twitter.com/tu_perfil" target="_blank">Twitter</a></li>
-            <li><a href="https://www.github.com/tu_perfil" target="_blank">GitHub</a></li>
-        </ul>
-    </footer>
 </body>
 
 </html>

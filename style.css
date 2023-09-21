@@ -1,125 +1,187 @@
-/* Estilos globales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+html {
+  box-sizing: border-box;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2B3B45;
+}
+
+
+/* Header */
 header {
-    background-color: #a30000;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+  background-color: #2e85aa;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 0;
 }
 
 h1 {
-    margin: 0;
-    font-size: 36px;
+  font-size: 36px;
 }
 
 h2 {
-    margin: 0;
-    font-size: 24px;
+  font-size: 24px;
 }
 
 p {
-    margin: 0;
-    font-size: 18px;
+  font-size: 18px;
+  margin: 0;
 }
 
-/* Estilos para secciones */
-section {
-    background-color: #fff;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+a {
+  text-decoration: none;
 }
 
-/* Estilos para imágenes */
+.descripcion {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+}
+
+
+/* Generales */
 img {
-    max-width: 100%;
-    height: auto;
+  border: thin solid black;
 }
 
-/* Estilos para iframes de video */
-iframe {
-    width: 100%;
-    height: 315px;
-    margin-top: 10px;
+section {
+  background-color: #FFF;
+  margin: 20px 100px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
-/* Estilos para listas */
-ul, ol {
-    margin: 0;
-    padding: 0 0 0 20px;
+div {
+  text-align: center;
 }
 
-li {
-    margin-bottom: 5px;
-}
 
-/* Estilos para formularios */
-form {
-    margin-top: 20px;
+/* Formulario */
+.formulario-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  max-width: 500px;
 }
 
 label {
-    font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 input[type="submit"] {
-    background-color: #a30000;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #2e85aa;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 30%;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 input[type="submit"]:hover {
-    background-color: #5b0000;
+  background-color: #2B3B45;
 }
 
-/* Estilos para el footer */
-footer {
-    background-color: #a30000;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+.text-center {
+  text-align: center;
+}
+
+
+/* Tabla */
+table {
+  border-collapse: collapse;
+}
+
+th,
+tr,
+td {
+  border: 1px solid #2B3B45;
+  width: 250px;
+  height: 45px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+th {
+  color: #fff;
+  background-color: #2B3B45;
+}
+
+tr:nth-child(odd) td {
+  background-color: #eee;
+}
+
+
+/* Footer */
+.site-footer {
+  background-color: #2e85aa;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.site-footer a {
+  color: #fff;
+}
+
+.site-footer a:hover {
+  color: #2B3B45;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.social-link {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.social-link i {
+  font-size: 2em;
+  margin-right: 5px;
+}
+
+.social-link span {
+  font-weight: bold;
 }
 
 footer h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer ul li {
-    margin-bottom: 5px;
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-}
-
-footer ul li a:hover {
-    text-decoration: underline;
+  margin-bottom: 20px;
 }
